@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="ico/apex carp fishing.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="panier.css">
+    <title>Apex Carp Fishing</title>
+</head>
+
+<body>
+
+<header>
+    <h1>🎣🐟🔥Apex Carp Fishing🔥🐟🎣</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="boutique.html">Boutique</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+    </ul>
+</nav>
+
+<!-- ICÔNE PANIER -->
+
+<div id="cart-icon" onclick="toggleCart()">
+    🛒 <span id="cart-count">0</span>
+</div>
+
+<!-- PANIER LATÉRAL -->
+
+<div id="cart-sidebar">
+
+    <div class="cart-header">
+        <h2>🛒 Mon panier</h2>
+
+        <button onclick="toggleCart()">
+            ✖
+        </button>
+    </div>
+
+    <div id="cart-items"></div>
+
+    <div class="cart-footer">
+
+        <h3>
+            Total : <span id="cart-total">0.00€</span>
+        </h3>
+
+        <button onclick="envoyerCommande()">
+            📧 Commander
+        </button>
+
+    </div>
+
+</div>
+
+<br>
+
+<div class="products">
+
+    <!-- MAÏS -->
+
+    <div class="product-card">
+
+        <img src="bouillette/maïs.png" alt="Bouillettes Maïs">
+
+        <h3>Bouillettes Maïs</h3>
+
+        <p>
+            Bouillettes riches en maïs,
+            idéales pour les sessions longues et rapides.
+        </p>
+
+        <span class="price">7.99€</span>
+
+        <button class="add-cart">
+            Ajouter au panier
+        </button>
+
+    </div>
+
+    <!-- ORIENTALE -->
+
+    <div class="product-card">
+
+        <img src="bouillette/orientale.png" alt="Bouillettes orientale">
+
+        <h3>Bouillettes épice orientale</h3>
+
+        <p>
+            Bouillettes riches en épices,
+            idéales pour les sessions longues et rapides.
+        </p>
+
+        <span class="price">7.99€</span>
+
+        <button class="add-cart">
+            Ajouter au panier
+        </button>
+
+    </div>
+
+    <!-- MYRTILLE -->
+
+    <div class="product-card">
+
+        <img src="bouillette/myrtille.png" alt="Bouillettes myrtille">
+
+        <h3>Bouillettes Myrtille</h3>
+
+        <p>
+            Bouillettes riches en myrtille,
+            idéales pour les sessions longues et rapides.
+        </p>
+
+        <span class="price">7.99€</span>
+
+        <button class="add-cart">
+            Ajouter au panier
+        </button>
+
+    </div>
+
+    <!-- AIL -->
+
+    <div class="product-card">
+
+        <img src="bouillette/ail.png" alt="Bouillettes Ail">
+
+        <h3>Bouillettes Ail</h3>
+
+        <p>
+            Bouillettes riches en ail,
+            idéales pour les sessions longues et rapides.
+        </p>
+
+        <span class="price">7.99€</span>
+
+        <button class="add-cart">
+            Ajouter au panier
+        </button>
+
+    </div>
+    <div class="product-card">
+
+        <img src="bouillette/boost maïs.png" alt="Boost maïs">
+
+        <h3>Boost maïs</h3>
+
+        <p>
+            Boost riches en maïs,
+            idéales pour les sessions longues et rapides.
+        </p>
+
+        <span class="price">5.99€</span>
+
+        <button class="add-cart">
+            Ajouter au panier
+        </button>
+
+    </div>
+    <div class="product-card">
+
+        <img src="bouillette/boost epice.png" alt="Boost orientale">
+
+        <h3>Boost épice orientale</h3>
+
+        <p>
+            Boost riches en épices,
+            idéales pour les sessions longues et rapides.
+        </p>
+
+        <span class="price">5.99€</span>
+
+        <button class="add-cart">
+            Ajouter au panier
+        </button>
+
+    </div>
+    <div class="product-card">
+
+        <img src="bouillette/boost myrtille.png" alt="Boost myrtille">
+
+        <h3>Boost myrtille
+        <p>
+            Boost riches en myrtille,
+            idéales pour les sessions longues et rapides.
+        </p>
+
+        <span class="price">5.99€</span>
+
+        <button class="add-cart">
+            Ajouter au panier
+        </button>
+
+    </div>
+    <div class="product-card">
+
+        <img src="bouillette/boost ail.png" alt="Boost ail">
+
+        <h3>Boost ail</h3>
+
+        <p>
+            Boost riches en ail,
+            idéales pour les sessions longues et rapides.
+        </p>
+
+        <span class="price">5.99€</span>
+
+        <button class="add-cart">
+            Ajouter au panier
+        </button>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Apex Carp Fishing — Tous droits réservés</p>
+</footer>
+
+<script src="panier.js"></script>
+
+</body>
+
+</html>
